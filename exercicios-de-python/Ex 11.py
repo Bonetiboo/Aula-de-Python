@@ -14,3 +14,4 @@ elif rm >= 2000 and sc >= 600:
     print("Uma análise manual será realizada.")
 else:
     print("Negado.")
+
