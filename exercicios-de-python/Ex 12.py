@@ -3,14 +3,13 @@
 usuario = input("Insira seu usuário:")
 senha = input("Insira sua senha:")
 
-if (usuario == "admin" and senha == "1234"):
-    print("Acesso total concedido")
-
-elif (usuario == "admin" and senha != "1234"):
-    print("Senha incorreta.")
-
-elif (usuario != "admin" and senha == "1234"):
-    print("Usuário incorreto.")
-
+if (usuario == "admin"):
+    if (senha == "1234"):
+        print("Acesso total concedido")
+    else:
+        print("Senha incorreta.")
 else:
-    print("Usuário e senha incorretos.")
+    if (senha == "1234"):
+        print("Usuário incorreto.")
+    else:
+        print("Usuário e senha estão incorretos.")
