@@ -1,4 +1,4 @@
-# Ex.17 - Crie um algoritmo para solicitar a escolha do menu do café da manhã. Opções: ovos, panquecas, wafles e frutas.
+# Ex.18 - Crie um algoritmo para solicitar a escolha do menu do café da manhã. Opções: ovos, panquecas, wafles e frutas.
 # Acompanhamentos: bacon, queijo, pão, presunto, manteiga e limão. Tipos de frutas: abacaxi, maçã, banana e uvas.
 
 opção = input(
