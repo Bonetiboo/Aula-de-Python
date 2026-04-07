@@ -81,3 +81,45 @@ for nn in range (1, 5):
           break # ou seja, pare a estrutura de repetição.
      print(nn)
 
+# Exemplo 9 - lista de números:
+
+numeros = []
+
+for i in range(5):
+   numero = int(input('Digite um número: '))
+   numeros.append(numero)
+   print(numeros)
+    
+# Exemplo 10 - lista de números e nomes:
+
+numeros = []
+nomes = []
+
+
+for i in range(5):
+   numero = int(input("Digite um número: "))
+   nome = input("Digite um nome: ")
+   numeros.append(numero)
+   nomes.append(nome)
+    
+print(numeros)
+print(nomes)
+    
+# Exemplo 11 - estrutura com break:
+
+lista_universidades = ['USP', 'FIAP', 'UNICAMP', 'UNESP', 'MIT']
+
+for k in lista_universidades:
+  if k == 'UNESP':
+        break # O intuito é não mostrar a última
+  print(k)     
+  print(f"Universidade - {k}")
+
+# Exemplo 12 - estrutura com continue:
+
+lista_universidades = ['USP', 'FIAP', 'UNICAMP', 'UNESP', 'MIT']
+
+for k in lista_universidades:
+  if k == 'UNESP':
+        continue # o intuito é ignorar a condição específica
+  print(k)
