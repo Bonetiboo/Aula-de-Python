@@ -232,14 +232,14 @@
 
 # Exemplo 22
 
-for i in range(3):
-    senha = input("Digite sua senha: ")
-    if senha == "sair":
-        print(senha)
-        break
+# for i in range(3):
+#     senha = input("Digite sua senha: ")
+#     if senha == "sair":
+#         print(senha)
+#         break
 
-while True:
-    nome = input("Digite seu nome: ")
-    if nome == "sair":
-        print(nome)
-        break
+# while True:
+#     nome = input("Digite seu nome: ")
+#     if nome == "sair":
+#         print(nome)
+#         break
