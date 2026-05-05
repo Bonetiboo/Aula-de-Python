@@ -1,0 +1,1 @@
+# Ex.49 = Inclua uma nova coluna ao dataframe do exercício anterior chamada lucro/venda. Após isso, mostre o respectivo produto e relação lucro/venda de cada produto.
